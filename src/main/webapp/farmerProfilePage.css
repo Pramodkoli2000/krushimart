@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/grain-field-detail-free-photo.jpg?w=2210&quality=70");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*height: 715px;
+	width: 100%;*/
+}
+.main-div{
+	margin-top: 40px;
+	display: flex;
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	padding-top: 10px;
+	background-color: lightgoldenrodyellow;
+	background-color:#a7d5db;
+	height: 65px;
+	font-size: 20px;
+	
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition-duration: 1s;
+}
+
+.navbar a:hover {
+	color: gray;
+}
+
+.post-container {
+text-align: center;	
+	border-radius: 20px;
+	border: 2px solid black;
+	box-shadow: 0px 0px 15px black;
+	width: 400px;
+	margin-left: 50px;
+	transition-duration: 0.5s;
+
+}
+.post-container:hover{
+	box-shadow: 0px 0px 25px black;
+}
+.abt-post{
+	margin-bottom: 20px;
+}
+label{
+	font-size: 20px;
+}
+
+.but{
+	font-size: 15px;
+	font-weight: bolder;
+    cursor: pointer;
+	height: 40px;
+	width: 120px;
+	background-color: transparent;
+	border-radius: 30px;
+	transition-duration: 1s;
+}
+
+.but:hover{
+	color: black;
+	box-shadow: 0px 0px 15px black;
+	background-color:#d6ac7c;
+}
+.profile-info{
+	
+	margin-left: 920px;
+	border: 5px groove gray;
+	box-shadow: 0px 0px 20px black;
+	margin-top: 30px;
+	width: 450px;
+	height: 300px;
+	position: fixed;
+}
+.lab{
+	padding: 30px;
+	font-size: 25px;
+}
+
+.but1{
+	font-size: 15px;
+	font-weight: bolder;
+    cursor: pointer;
+	height: 40px;
+	width: 90px;
+	background-color: transparent;
+	border-radius: 30px;
+	transition-duration: 1s;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.but1:hover{
+	color: black;
+	box-shadow: 0px 0px 15px black;
+	background-color:#f5f4f0;
+}
+
+.but2{
+	font-size: 15px;
+	font-weight: bolder;
+    cursor: pointer;
+	height: 40px;
+	width: 150px;
+	background-color: transparent;
+	border-radius: 30px;
+	transition-duration: 1s;
+	margin-left: 50px;
+}
+
+.but2:hover{
+	color: black;
+	box-shadow: 0px 0px 15px black;
+	background-color:#f5f4f0;
+}

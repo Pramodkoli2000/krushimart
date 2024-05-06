@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.main-div {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("login_img.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 715px;
+	width: 100%;
+}
+
+.sub-div {
+	 position: absolute; 
+	background-color: transparent;
+	height: 300px;
+	width: 700px;
+	border-radius: 20px;
+	margin-top: 220px;
+	margin-left: 380px;
+	box-shadow: 0px 0px 20px black;
+	padding: 15px;
+	
+}
+
+.fset {
+/*	margin-top: 10px;*/
+	border: 5px groove gray;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.text-legend {
+	font-size: 25px;
+	color: black;
+}
+
+.form-input {
+	border: none;
+	outline: none;
+	font-family:"Times New Roman";
+	background-color: transparent;
+	border-bottom: 2.5px solid black;
+	margin-left: 10px;
+/*	margin-top: 8px;*/
+	font-size: 20px;
+}
+.form{
+	margin-top: 10px;
+	padding-left: 60px;
+}
+
+.lbut{
+	font-size: 15px;
+	font-weight: bolder;
+    cursor: pointer;
+	height: 40px;
+	width: 90px;
+	background-color: transparent;
+	border-radius: 30px;
+	transition-duration: 1s;
+}
+
+.lbut:hover{
+	color: black;
+	box-shadow: 0px 0px 15px black;
+	background-color:#f5f4f0;
+}
+
+.fbut{
+	margin-top: 18px;
+	font-size: 15px;
+	background-color: transparent;
+	font-weight: 600;
+    cursor: pointer;
+	border: none;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
